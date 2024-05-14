@@ -1,0 +1,46 @@
+﻿<Window x:Class="SIM_App_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SIM_App_Project"
+        mc:Ignorable="d"
+        Title="Store Inventory Management" Height="450" Width="800">
+    <Grid x:Name="Store_Inventory_Management" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="182*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Stores&#xD;&#xA;" HorizontalAlignment="Left" Margin="33,35,0,0" VerticalAlignment="Top" Width="50" Height="23" Grid.ColumnSpan="3" FontWeight="Bold" />
+        <ListBox x:Name="storeList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="12,63,648,253" Grid.ColumnSpan="3" SelectionChanged="ListBox_SelectionChanged" ItemsSource="{Binding ItemStringFormat, ElementName=storeList}" />
+        <Label Content="Store Inventory&#xD;&#xA;" HorizontalAlignment="Left" Margin="92,35,0,0" VerticalAlignment="Top" Width="93" Height="36" Grid.Column="2" FontWeight="Bold" />
+        <ListBox x:Name="inventoryList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="92,63,499,255" Grid.Column="2" SelectionChanged="inventoryList_SelectionChanged" />
+        <Label Content="All Product" HorizontalAlignment="Left" Margin="481,49,0,0" VerticalAlignment="Top" Width="115" Height="23" Grid.Column="2" />
+        <ListBox x:Name="productList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="479,76,99,245" Grid.Column="2" SelectionChanged="productList_SelectionChanged" />
+        <Label Content="Store :" HorizontalAlignment="Left" Margin="38,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.217,-0.16" Grid.ColumnSpan="3" Width="50" />
+        <TextBox x:Name="storename" HorizontalAlignment="Left" Margin="56,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.036" Grid.Column="2" TextChanged="TextBox_TextChanged" />
+        <Label Content="Store Add:" HorizontalAlignment="Left" Margin="36,289,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.217,-0.16" Grid.ColumnSpan="3" Width="67" />
+        <Label Content="City :" HorizontalAlignment="Left" Margin="36,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.217,-0.16" Grid.ColumnSpan="3" Width="50" />
+        <Label Content="State :" HorizontalAlignment="Left" Margin="36,341,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.217,-0.16" Grid.ColumnSpan="3" Width="50" />
+        <Label Content="Contact :" HorizontalAlignment="Left" Margin="36,367,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.217,-0.16" Grid.ColumnSpan="3" Width="67" />
+        <TextBox x:Name="storeStreet" HorizontalAlignment="Left" Margin="56,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.036" Grid.Column="2" TextChanged="TextBox_TextChanged" />
+        <TextBox x:Name="storeCity" HorizontalAlignment="Left" Margin="56,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.036" Grid.Column="2" TextChanged="TextBox_TextChanged" />
+        <TextBox x:Name="storeState" HorizontalAlignment="Left" Margin="56,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.036" Grid.Column="2" TextChanged="TextBox_TextChanged" />
+        <TextBox x:Name="storeContact" HorizontalAlignment="Left" Margin="56,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.365,0.036" Grid.Column="2" TextChanged="TextBox_TextChanged" />
+        <Label Grid.Column="2" Content="Product Management&#xD;&#xA;" HorizontalAlignment="Left" Margin="488,15,0,0" VerticalAlignment="Top" FontWeight="Bold" />
+        <Label Grid.Column="2" Content="Product Name :" HorizontalAlignment="Left" Margin="406,268,0,0" VerticalAlignment="Top" />
+        <Label Grid.Column="2" Content="Product Brand :&#xD;&#xA;" HorizontalAlignment="Left" Margin="402,300,0,0" VerticalAlignment="Top" />
+        <TextBox x:Name="newprod" Grid.Column="2" HorizontalAlignment="Left" Margin="508,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" TextChanged="TextBox_TextChanged" />
+        <TextBox x:Name="newbrand" Grid.Column="2" HorizontalAlignment="Left" Margin="507,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" TextChanged="TextBox_TextChanged" />
+        <Button x:Name="AddStore" Content="Add Store" HorizontalAlignment="Left" Margin="28,400,0,0" VerticalAlignment="Top" Width="82" Click="AddStore_Click" Height="25" Grid.Column="2" />
+        <Button x:Name="DeleteStore" Content="Delete Store" HorizontalAlignment="Right" Margin="0,196,684,0" VerticalAlignment="Top" Width="78" Height="24" Grid.ColumnSpan="3" Click="DeleteStore_Click" />
+        <Button x:Name="InventoryAdd" Grid.Column="2" Content="Add Inventory" HorizontalAlignment="Left" Margin="278,140,0,0" VerticalAlignment="Top" Click="InventoryAdd_Click" RenderTransformOrigin="0.413,2.081" />
+        <Button x:Name="InventoryDelete" Grid.Column="2" Content="Del inventory" HorizontalAlignment="Left" Margin="118,194,0,0" VerticalAlignment="Top" Click="InventoryDelete_Click" />
+        <Button x:Name="AddProd" Grid.Column="2" Content="Add Product" HorizontalAlignment="Left" Margin="522,340,0,0" VerticalAlignment="Top" Click="AddProd_Click" RenderTransformOrigin="0.899,0.485" Width="92" Height="36" />
+        <Button x:Name="DelProd" Grid.Column="2" Content="Delete Product" HorizontalAlignment="Left" Margin="509,203,0,0" VerticalAlignment="Top" Click="DelProd_Click" Width="89" Height="39" />
+        <TextBox x:Name="StoreSelection" Grid.Column="2" HorizontalAlignment="Left" Margin="257,64,0,0" TextWrapping="Wrap" Text="Store Number" VerticalAlignment="Top" Width="120" TextChanged="StoreSelection_TextChanged" />
+        <TextBox x:Name="ProductSelection" Grid.Column="2" HorizontalAlignment="Left" Margin="257,91,0,0" TextWrapping="Wrap" Text="Product Number Selection" VerticalAlignment="Top" Width="120" />
+        <Label Grid.Column="2" Content="Add Inventroy" HorizontalAlignment="Left" Margin="271,34,0,0" VerticalAlignment="Top" FontWeight="Bold" />
+    </Grid>
+</Window>
