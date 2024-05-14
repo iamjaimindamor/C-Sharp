@@ -1,0 +1,11 @@
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\bin\Debug\CRUDLinQ.exe.config
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\bin\Debug\CRUDLinQ.exe
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\bin\Debug\CRUDLinQ.pdb
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.csproj.AssemblyReference.cache
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.Form1.resources
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.Form2.resources
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.Properties.Resources.resources
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.csproj.GenerateResource.cache
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.csproj.CoreCompileInputs.cache
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.exe
+E:\AlpsLogic\CRUDLinQ\CRUDLinQ\obj\Debug\CRUDLinQ.pdb
