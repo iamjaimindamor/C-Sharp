@@ -1,0 +1,7 @@
+E:\AlpsLogic\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe.config
+E:\AlpsLogic\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe
+E:\AlpsLogic\GuessingGame\GuessingGame\bin\Debug\GuessingGame.pdb
+E:\AlpsLogic\GuessingGame\GuessingGame\obj\Debug\GuessingGame.csproj.AssemblyReference.cache
+E:\AlpsLogic\GuessingGame\GuessingGame\obj\Debug\GuessingGame.csproj.CoreCompileInputs.cache
+E:\AlpsLogic\GuessingGame\GuessingGame\obj\Debug\GuessingGame.exe
+E:\AlpsLogic\GuessingGame\GuessingGame\obj\Debug\GuessingGame.pdb
