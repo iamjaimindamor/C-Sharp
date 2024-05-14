@@ -1,0 +1,11 @@
+E:\AlpsLogic\Part3CRUD\Part3CRUD\bin\Debug\Part3CRUD.exe.config
+E:\AlpsLogic\Part3CRUD\Part3CRUD\bin\Debug\Part3CRUD.exe
+E:\AlpsLogic\Part3CRUD\Part3CRUD\bin\Debug\Part3CRUD.pdb
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.csproj.AssemblyReference.cache
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.Form1.resources
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.Form2.resources
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.Properties.Resources.resources
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.csproj.GenerateResource.cache
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.csproj.CoreCompileInputs.cache
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.exe
+E:\AlpsLogic\Part3CRUD\Part3CRUD\obj\Debug\Part3CRUD.pdb
