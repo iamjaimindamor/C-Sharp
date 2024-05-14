@@ -1,0 +1,7 @@
+E:\AlpsLogic\Bank\Bank\bin\Debug\Bank.exe.config
+E:\AlpsLogic\Bank\Bank\bin\Debug\Bank.exe
+E:\AlpsLogic\Bank\Bank\bin\Debug\Bank.pdb
+E:\AlpsLogic\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+E:\AlpsLogic\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+E:\AlpsLogic\Bank\Bank\obj\Debug\Bank.exe
+E:\AlpsLogic\Bank\Bank\obj\Debug\Bank.pdb
