@@ -1,0 +1,7 @@
+E:\AlpsLogic\Duel\Duel\bin\Debug\Duel.exe.config
+E:\AlpsLogic\Duel\Duel\bin\Debug\Duel.exe
+E:\AlpsLogic\Duel\Duel\bin\Debug\Duel.pdb
+E:\AlpsLogic\Duel\Duel\obj\Debug\Duel.csproj.AssemblyReference.cache
+E:\AlpsLogic\Duel\Duel\obj\Debug\Duel.csproj.CoreCompileInputs.cache
+E:\AlpsLogic\Duel\Duel\obj\Debug\Duel.exe
+E:\AlpsLogic\Duel\Duel\obj\Debug\Duel.pdb
